@@ -12,7 +12,7 @@ window.addEventListener("load", function(){
                                 <ul>
                                     <li>Hours in Space: ${json[i].hoursInSpace}</li>
                                     <li>Active: ${json[i].active}</li>
-                                    <li>Skills: ${json[i].skills.join(", ,")}</li>
+                                    <li>Skills: ${json[i].skills.join(", ")}</li>
                                 </ul>
                             </div>
                             <img class="avatar" src="${json[i].picture}">
